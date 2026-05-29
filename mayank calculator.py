@@ -1,0 +1,6 @@
+a= int(input ("enter first letter ="))
+b= int(input ("enter second letter ="))
+print("sum of total=", a+b)
+print("subtrack of total=", a-b)
+print("multiple of total=", a*b)
+print("devide of total=", a/b)

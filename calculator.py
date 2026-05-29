@@ -1,0 +1,6 @@
+a= int(input("First digit = "))
+b= int(input("Second digit = "))
+print("Sum value of a and b is =", a+b)
+print("subtraction value of a and b is =", a-b)
+print("Multiplication value of a and b is =", a*b)
+print("Division value of a and b is =", a/b)   
