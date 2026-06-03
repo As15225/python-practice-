@@ -34,10 +34,11 @@
 #         print("*",end="")
 #     print()
 
-# n=5
-# for i in range (n,0,-1):
-#     for j in range(i):
-#         print("*",end="")
+# n=4
+# for i in range (n):
+#     for j in range(n):
+#         print(j,end="")
+#         n+=1
 #     print()
  
 
@@ -47,10 +48,25 @@
 #         print(j,end="")
 #     print()
 
-n=5
-for i in range (1,n):
-    for j in range(n,0,-1):
-        print(j,end="")
+# n=4
+# for i in range (n):
+#     for j in range(1,n):
+#         print(i,end="")
+#     print()
+
+
+# n=1
+# for i in range(1,5):
+#     for k in range(i):
+#         print(n,end=" ")
+#         n+=1
+#     print()
+
+
+for i in range(1,6):
+    for j in range(i):
+        print(i,end="") #print me bhi i liya hai
+                  
     print()
 
 
